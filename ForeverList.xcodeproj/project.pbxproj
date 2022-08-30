@@ -16,7 +16,9 @@
 		32A275F128AF45220010DB03 /* StorageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A275F028AF45220010DB03 /* StorageProvider.swift */; };
 		32A275FC28AF47EB0010DB03 /* AllItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A275FB28AF47EB0010DB03 /* AllItemsView.swift */; };
 		32A2760628B39A840010DB03 /* ItemHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A2760528B39A840010DB03 /* ItemHistory.swift */; };
-		32A2760A28B5D5860010DB03 /* Notes in Resources */ = {isa = PBXBuildFile; fileRef = 32A2760928B5D5860010DB03 /* Notes */; };
+		32A2760A28B5D5860010DB03 /* Notes-CH1 in Resources */ = {isa = PBXBuildFile; fileRef = 32A2760928B5D5860010DB03 /* Notes-CH1 */; };
+		32A2760C28B64D000010DB03 /* Notes-CH2 in Resources */ = {isa = PBXBuildFile; fileRef = 32A2760B28B64D000010DB03 /* Notes-CH2 */; };
+		32FEC59E28B7129800FFD1EC /* OldSchool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC59D28B7129800FFD1EC /* OldSchool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +33,9 @@
 		32A275F028AF45220010DB03 /* StorageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageProvider.swift; sourceTree = "<group>"; };
 		32A275FB28AF47EB0010DB03 /* AllItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllItemsView.swift; sourceTree = "<group>"; };
 		32A2760528B39A840010DB03 /* ItemHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemHistory.swift; sourceTree = "<group>"; };
-		32A2760928B5D5860010DB03 /* Notes */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes; sourceTree = "<group>"; };
+		32A2760928B5D5860010DB03 /* Notes-CH1 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Notes-CH1"; sourceTree = "<group>"; };
+		32A2760B28B64D000010DB03 /* Notes-CH2 */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Notes-CH2"; sourceTree = "<group>"; };
+		32FEC59D28B7129800FFD1EC /* OldSchool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldSchool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				32A275F028AF45220010DB03 /* StorageProvider.swift */,
+				32FEC59D28B7129800FFD1EC /* OldSchool.swift */,
 				32A275ED28AF44A70010DB03 /* ForeverListDataModel.xcdatamodeld */,
 			);
 			path = CoreData;
@@ -114,7 +119,7 @@
 				32A275DB28AF433E0010DB03 /* SceneDelegate.swift */,
 				32A275E228AF43400010DB03 /* Assets.xcassets */,
 				32A275E728AF43400010DB03 /* Info.plist */,
-				32A2760928B5D5860010DB03 /* Notes */,
+				32A2760D28B64D310010DB03 /* Notes */,
 			);
 			name = SupportFiles;
 			sourceTree = "<group>";
@@ -125,6 +130,15 @@
 				32A2760528B39A840010DB03 /* ItemHistory.swift */,
 			);
 			path = Items;
+			sourceTree = "<group>";
+		};
+		32A2760D28B64D310010DB03 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				32A2760928B5D5860010DB03 /* Notes-CH1 */,
+				32A2760B28B64D000010DB03 /* Notes-CH2 */,
+			);
+			path = Notes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +199,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32A2760A28B5D5860010DB03 /* Notes in Resources */,
+				32A2760C28B64D000010DB03 /* Notes-CH2 in Resources */,
+				32A2760A28B5D5860010DB03 /* Notes-CH1 in Resources */,
 				32A275E628AF43400010DB03 /* LaunchScreen.storyboard in Resources */,
 				32A275E328AF43400010DB03 /* Assets.xcassets in Resources */,
 			);
@@ -199,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A275FC28AF47EB0010DB03 /* AllItemsView.swift in Sources */,
+				32FEC59E28B7129800FFD1EC /* OldSchool.swift in Sources */,
 				32A275DE28AF433E0010DB03 /* AllItemsViewController.swift in Sources */,
 				32A275DA28AF433E0010DB03 /* AppDelegate.swift in Sources */,
 				32A2760628B39A840010DB03 /* ItemHistory.swift in Sources */,
